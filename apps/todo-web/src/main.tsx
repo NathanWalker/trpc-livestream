@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
-
+import './trpc-setup';
 import App from './app/app';
 
 const root = ReactDOM.createRoot(

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { trpc } from './trpc';
+import { trpc } from '@nx-trpc-demo/components';
 
 export default function AddTodoForm() {
   const utils = trpc.useContext();

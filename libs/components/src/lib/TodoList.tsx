@@ -2,7 +2,7 @@ import { TodoTrpcRouter } from '@nx-trpc-demo/todo-trpc-server';
 import { inferRouterOutputs } from '@trpc/server';
 import { trpc } from './trpc';
 
-export default function TodoList() {
+export function TodoList() {
   const { data } = trpc.todos.getAllTodos.useQuery(undefined, {
     refetchOnWindowFocus: false,
   });

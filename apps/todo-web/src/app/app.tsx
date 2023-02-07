@@ -2,8 +2,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { httpBatchLink } from '@trpc/client';
 import { useState } from 'react';
 import AddTodoForm from './AddTodoForm';
-import TodoList from './TodoList';
-import { trpc } from './trpc';
+import { TodoList, trpc } from '@nx-trpc-demo/components';
 
 export function App() {
   const [queryClient] = useState(() => new QueryClient());
