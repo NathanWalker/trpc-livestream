@@ -23,6 +23,9 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
+    "@nativescript/nx": "^4.2.0",
+    "@nativescript/types": "~8.4.0",
+    "@nativescript/webpack": "~5.0.0",
     "@nrwl/cypress": "15.6.0",
     "@nrwl/devkit": "15.6.0",
     "@nrwl/esbuild": "15.6.0",

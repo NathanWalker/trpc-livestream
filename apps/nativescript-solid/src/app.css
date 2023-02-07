@@ -1,0 +1,16 @@
+.logo {
+  vertical-align: top;
+  width: 250;
+  /* {N} specific style */
+  horizontal-align: center;
+}
+
+.label {
+  margin-top: 50;
+  color: #efefef;
+  text-align: center;
+}
+
+.bg-black {
+  background-color: black;
+}

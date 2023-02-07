@@ -1,0 +1,22 @@
+{
+  "name": "nssolid",
+  "main": "src/app.js",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nativescript-community/solid-js": "^0.0.4-alpha.2",
+    "@nativescript/core": "~8.4.0",
+    "dominative": "^0.0.8-alpha.3",
+    "undom-ng": "^1.0.2"
+  },
+  "devDependencies": {
+    "@nativescript/android": "~8.4.0",
+    "@nativescript/ios": "~8.4.0",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel": "^6.23.0",
+    "babel-loader": "^9.1.0",
+    "babel-preset-solid": "^1.6.6",
+    "solid-refresh": "^0.4.1"
+  }
+}
